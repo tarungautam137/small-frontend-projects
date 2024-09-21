@@ -1,0 +1,16 @@
+body{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: gainsboro;
+    color:black
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#f{
+    border-bottom: 4px solid black;
+}
+#content #c2,#content #c3 ,#content #c4{
+    display: none;
+}
