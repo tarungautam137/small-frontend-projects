@@ -1,11 +1,16 @@
 var div=document.querySelector("#second");
-var x=document.querySelector("#accept");
-var y=document.querySelector("#decline");
+var accept=document.querySelector("#accept");
+var decline=document.querySelector("#decline");
 
-x.addEventListener("click", function(){
-    div.style.display="none";
+document.addEventListener("DOMContentLoaded",function() {
+    if(!localStorage.getItem("accept")) div.style.display="block";
 });
 
-y.addEventListener("click", function(){
+accept.addEventListener("click", function(){
+    div.style.display="none";
+    localStorage.setItem("accept","cookie");
+});
+
+decline.addEventListener("click", function(){
     div.style.display="none";
 });
