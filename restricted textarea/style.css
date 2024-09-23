@@ -1,0 +1,18 @@
+body{
+    background: beige;
+}
+#main{
+    position :relative;
+    padding :2vw;
+}
+textarea{
+    width: 600px;
+    height: 100px;
+    outline: none;
+    border-radius: 5px;
+}
+#content{
+    position: absolute;
+    top:117px;
+    left: 590px;
+}
