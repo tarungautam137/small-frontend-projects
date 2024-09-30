@@ -4,3 +4,5 @@ creating a cookie consent
 project-https://roadmap.sh/projects/cookie-consent
 creating restricted textarea
 project-https://roadmap.sh/projects/restricted-textarea
+creating a custom dropdown
+project-https://roadmap.sh/projects/custom-dropdown
