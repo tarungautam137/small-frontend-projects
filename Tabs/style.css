@@ -14,3 +14,10 @@ body{
 #content #c2,#content #c3 ,#content #c4{
     display: none;
 }
+.tab{
+    cursor: pointer;
+}
+
+.tab:hover{
+    background-color: #d6d1d1;
+}
