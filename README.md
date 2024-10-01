@@ -6,3 +6,5 @@ creating restricted textarea
 project-https://roadmap.sh/projects/restricted-textarea
 creating a custom dropdown
 project-https://roadmap.sh/projects/custom-dropdown
+creating a task tracker
+project-https://roadmap.sh/projects/task-tracker-js
