@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    position: relative;
+}
+#add{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#007acc;
+    color: white;
+    font-size: 45px;
+    z-index: 101;
+    border: none;
+}
+#add:hover{
+    background-color:#005bb5;
+}
+#lanes{
+    position: absolute;
+    min-width: 100vw;
+    height: 100%;
+    display: flex;
+}
+#modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 106;
+}
+#modal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: max-content;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+#subreddit-input{
+    font-size: 15px;
+    padding: 5px; 
+}
+#add-subreddit{
+    font-size: 15px;
+    padding: 5px; 
+    background-color:#007acc;
+    color: white;
+}
+#add-subreddit:hover{
+    background-color:#005bb5;
+}
+.show{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 102;
+}
+.lane{
+    width: 24%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: fit-content;
+}
+.lane-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hidden{
+    display: none;
+}
+span{
+    height:5px;
+    font-weight: 600;
+}
+.post{
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+}
+.dots{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
